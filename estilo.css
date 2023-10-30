@@ -1,0 +1,1054 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*         PARTE 1          */
+
+
+.encabezado {
+
+    background-color: white;
+    color: #262626    ;
+    width: 100%;  /* 100% porque ocupa todo el ancho*/
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;/* eje Y*/
+    align-items: center ; /* eje x*/
+
+}
+
+
+.encabezado .logo {
+    display: flex;
+    margin-left: 75px; 
+   
+}
+
+.encabezado .logo h2 {
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold ;
+    color: #262626;
+    margin-top: 0px;
+    
+
+}
+.encabezado .logo img {
+
+    width: 60px;
+    height: 60px;
+    margin-top: 0px;
+}
+ 
+
+
+.menu  {
+
+
+    margin-right: 125px;
+   
+
+}
+
+.menu nav ul{
+    display: flex;
+ 
+}
+
+
+
+.menu nav ul li {
+list-style: none;
+padding-left: 60px;
+
+}
+
+.menu nav ul li a {
+text-decoration: none;
+color: black;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.seccion1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.seccion1 .titulo {
+    margin-left: 200px;
+    font-size: 70px;
+    width: 40%;
+
+}
+
+.linea_separador {
+    border-right: 2px solid #5f5f5f; 
+    margin-left: -250px;
+   
+}
+
+.seccion1 .texto {
+
+    margin-left: 90px;
+    margin-top: 120px;
+   
+}
+
+.seccion1 .texto h2 {
+    font-size: 30px;
+    
+}
+
+
+.texto p  {
+    margin-top: 10px;
+ font-size: 20px;
+ text-align: left;
+ margin-right: 125px;
+ line-height: 25px; /*interlineado*/
+ color: #6a6a6a;
+ font-family: Arial, Helvetica, sans-serif;
+ font-style: ;
+ text-transform: ;
+
+   
+}
+
+
+
+
+.imagen img {
+
+    margin-top: 100px;
+    margin-left: 284px; 
+    width: 85%;
+    height: 500px;
+}
+
+ .left-1 {
+    color: #fefefe;
+    background-color: black;
+    width: 85px;
+    height: 34px;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+.right-1 {
+    background-color: #fefefe;
+    color: black;
+    width: 85px;
+    height: 34px;
+ 
+    padding-left: 20%;
+    padding-top: 10%;
+
+}
+
+#flecha-1 {
+    display: flex;
+    align-items: end;
+    margin-top: -64px;
+    margin-left: 1645px;
+    position: relative;
+    
+} 
+
+
+@media (max-width: 480px){
+
+    .encabezado .logo {
+        margin-top: -35px;
+        margin-left: 20px;
+    }
+    .encabezado .logo img {
+
+        width: 40px;
+        height: 40px;
+    }
+
+    .encabezado .logo h2 {
+              padding-top: 18px;
+              font-size: 20px;
+    }
+
+    .menu nav ul li {
+        list-style: none;
+        padding-left: 5px;
+        margin-left: 10px;
+        font-size: 5px;
+        
+        }
+    .seccion1 {
+        flex-direction: column;
+        display: flex;
+       
+    }
+    .seccion1 .titulo{
+
+    margin-left:  -140px;
+      
+    }
+    .seccion1  .texto {
+        margin-top: 80px;
+      margin-left: 40px;
+      text-align: ;
+    }
+
+    .seccion1 .texto h2 {
+        margin-right: 0;
+        margin-left: 100px;
+        font-size: 30px;
+    }
+    .seccion1   .texto p {
+        margin-left: 0px;
+        margin-right: 30px;
+        text-align: center;
+        font-size: 20px;
+     
+    }
+    .linea_separador  {
+        display: none;
+    }
+
+    .imagen img {
+       
+   
+       margin-left: 37px;
+       margin-bottom: 75px;
+       width: 85%;
+    }
+
+}
+
+
+
+
+/*         PARTE 2         */
+.seccion-2 {
+    display: flex;
+     margin-left: 8%; 
+    margin-top: 10vh;
+
+}
+
+/*imagen segunda parte*/
+.fotografia {
+    width: 450px;
+    height: 637px;
+}
+
+.titulo {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
+    margin-right: 20%;
+}
+
+
+/*primer parrafo segunda parte*/
+.parrafo-2 {
+    font-size: 20px;
+    margin: 5%;
+    margin-right: 30%;
+   
+}
+
+
+/*comillas segunda parte*/
+.comillas {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    width: fit-content;
+    border-radius: 100%
+}
+
+/* .comillas {
+    margin-left: 43px;
+} */
+
+
+/*textos segunda parte*/
+
+.text1 {
+    color: #5f5f5f;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+/* .text1::first-line {
+    font-family: serif;
+    font-style: bold;
+    color: black;
+    font-size: 60px;
+    padding-bottom: 4%;
+    line-height: 80px;
+} */
+
+.text2 {
+    color: black(26, 26, 26);
+    line-height: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+/*flechas segunda parte*/
+.left-2 {
+    background-color: #fefefe;
+    color: black;
+    width: 85px;
+    height: 34px;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+.right-2 {
+    color: #fefefe;
+    background-color: black;
+    width: 85px;
+    height: 34px;
+    padding-left: 20%;
+    padding-top: 10%;
+
+}
+
+#flecha-2 {
+    display: flex;
+    align-items: end;
+    position: relative;
+    right: 135.2vh;
+    margin-bottom: 1.2vh; 
+} */
+
+
+
+/*         PARTE 3         */
+
+/* Seccion Blog */
+#blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.blogMain {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+/* Carta 1 */
+.blogCard1 {
+    width: 50%;
+    height: 50%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+/* Título */
+.blogCard1>h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0px 0 16px 0;
+}
+
+/* subtitulo */
+.blogCard1 p {
+    color: gray;
+    padding: 0px;
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 16px 0px 16px 0;
+    padding-right: 160px;
+    line-height: 35px;
+}
+
+/* Pie del blog */
+.blogFoot {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 32px 0 0 0;
+}
+
+/* Read more */
+.readMore {
+    font-size: 1em;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* línea */
+.line1 {
+    border: 1px solid black;
+    width: 48px;
+    margin-left: 40px;
+}
+
+/* Imágen 1 */
+.blogImg1 {
+    width: 50%;
+    height: 50%;
+    padding-top: 100px;
+}
+
+.img1 {
+    background-image: url(./img/img1.jpeg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 550px;
+    margin-left: -100px;
+}
+
+/* Imágen 2 */
+.blogImg2 {
+    width: 50%;
+    height: 50%;
+}
+
+.img2 {
+    background-image: url(./img/img2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 713px;
+    margin-top: -130px;
+}
+
+/* Carta 2 */
+.blogCard2 {
+    width: 50%;
+    height: 50%;
+}
+
+.blogCard2>h2 {
+    width: 100%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 120px;
+    padding-left: 100px;
+    margin-bottom: 35px;
+}
+
+/* subtitulo */
+.blogCard2 p {
+    color: gray;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    padding-left: 100px;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.seeAll {
+    font-size: 1em;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+}
+
+.blogFoot2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 32px 0 0 0;
+}
+
+.line2 {
+    border: 1px solid black;
+    width: 48px;
+    margin-left: 40px;
+}
+
+
+
+
+/*         PARTE 4         */
+
+.presentacion {
+    background-color: rgb(231, 236, 236);
+}
+
+.nombre {
+    padding: 30px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+}
+
+.enrique {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-bottom: 5px;
+
+}
+
+.designer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(147, 149, 149);
+    margin-bottom: 15px;
+}
+
+.fa-brands {
+    margin-right: 5px;
+}
+
+.profesion {
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.rostro {
+    width: 100px;
+    height: auto;
+    margin-top: 50px;
+   
+    
+}
+
+.parrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 90px;
+    color: rgb(154, 159, 159);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/****** SEGUNDA SECCION *********/
+/**Ubicacion de contenido*/
+
+.secciondos {
+    display: flex;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 100px;
+
+}
+
+.apartado {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+.tituparra {
+    width: 40%;
+    margin-left: 90px;
+
+}
+
+.ilustraciones {
+    display: flex;
+    justify-content: end;
+    margin: auto;
+    width: 70%;
+
+}
+
+/*Tamaños y color de textos***/
+
+.tprincipal {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descripciones {
+    color: rgb(154, 159, 159);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.tsecundario {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.ilustraciones img {
+    width: 180px;
+    height: 180px;
+    margin-right: 30px;
+    margin-bottom: 45px;
+}
+
+/** FLECHAS */
+
+.flechas {
+    display: flex;
+    justify-content: left;
+    margin: 0 auto;
+    margin-top: 170px;
+
+}
+
+.flechauno {
+    width: 85px;
+    height: 55px;
+    /* width: 60px;
+    height: 35px; */
+ 
+    background-color: #fefefe;
+    color: black;
+}
+
+.flechados {
+    width: 85px;
+    height: 55px;
+    /* width: 60px;
+    height: 35px; */
+  
+    color: #fefefe;
+    background-color: black;
+}
+
+.fa-solid {
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+
+
+
+
+/*         PARTE 5         */
+
+.main {
+    background-color: #262626;
+    min-width: 100%;
+    min-height: 25vh;
+}
+
+footer {
+    color: #bbbbbb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+}
+
+.logo {
+    margin: 1em 11em 2em;
+    display: flex;
+} 
+
+.logo img {
+
+    margin-top: 65px;
+    width: 66px;
+    height: 66px;
+    
+}
+
+.logo h2 {
+
+   margin-top: 80px; font-size: 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold ;
+}
+.lista {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 4.5em;
+}
+
+.lista  ul {
+    list-style: none;
+    flex-basis: 33.33333%;
+}
+
+.lista_dos {
+    margin-right: 14em;
+}
+
+
+li {
+    margin-bottom: 1.3em;
+    margin-right: 10.8em;
+}
+
+.subscribe {
+    margin-top: 4.5em;
+}
+
+.parrafo {
+    margin-bottom: 0.8em;
+}
+
+input {
+    background-color: #343434;
+    border: none;
+    padding: 1em 0 1em;
+    width: 17em;
+    margin-right: 1em;
+}
+
+.form_send button {
+  background-color: #343434;
+  border: none;
+  padding: 0.5em 1.5em 0.5em;
+  color: #bbbbbb;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.form_send {
+    display: flex;
+}
+
+::placeholder {
+    padding: 5px;
+  }
+
+.redes {
+    display: flex;
+    margin-top: 1em;
+  }
+
+.redes img {
+    margin-right: 2em;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+
+/*         PARTE 2         */
+/* queries modo mobile */
+@media only screen and (max-width: 500px){
+    .imagen-2 {
+     display: none;
+    }
+    section{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .comillas{
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+    .text1{
+        line-height: 40px;
+    }
+    .text2{
+
+        line-height: 30px;
+    }
+  
+}
+/* queries tablet */
+@media only screen and (max-width: 768px) {
+    .imagen-2 {
+      display: none;  
+    }
+    section{
+        flex-direction:column ;
+        align-items: center;
+        padding-top: 5px;
+    }
+    .text1{
+        line-height: 40px;
+    }
+
+   .text2{
+    line-height: 40px;
+   }
+} 
+
+/*         PARTE 3         */
+@media (max-width: 1430px) {
+    #blog {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+    .blogMain {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blogCard1 {
+        width: 80%;
+        height: 100%;
+        padding: 0;
+        margin: 40px 20px 40px 20px;
+        justify-content: left;
+        align-items: center;
+    }
+
+    /* Título */
+    .blogCard1>h2 {
+        width: 100%;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    /* subtitulo */
+    .blogCard1 p {
+        width: 100%;
+        font-size: 20px;
+        margin: 13px 0 20px 0;
+        padding: 0px;
+        line-height: auto;
+        text-align: left;
+    }
+
+    /* Pie del blog */
+    .blogFoot {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    /* Read more */
+    .readMore {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* línea */
+    .line1 {
+        margin-left: 30px;
+    }
+
+    /* Imágen 1 */
+    .blogImg1 {
+        width: 80%;
+        height: 300px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .img1 {
+        /* display: none; */
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    /* Imágen 2 */
+    .blogImg2 {
+        width: 80%;
+        height: 300px;
+    }
+
+    .img2 {
+        /* display: none;  */
+        height: 100%;
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    /* Carta 2 */
+    .blogCard2 {
+        width: 80%;
+        height: 100%;
+        padding: 0;
+        margin: 40px 20px 40px 20px;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .blogCard2>h2 {
+        width: 100%;
+        font-size: 30px;
+        margin: 40px 0 0 0;
+        padding: 0;
+    }
+
+    /* subtitulo */
+    .blogCard2 p {
+        width: 100%;
+        font-size: 20px;
+        margin: 13px 0 20px 0;
+        padding: 0px;
+        line-height: auto;
+        text-align: left;
+    }
+
+    .seeAll {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .blogFoot2 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .line2 {
+        margin-left: 30px;
+    }
+}
+
+
+
+/*         PARTE 4         */
+@media screen and (max-width: 930px) {
+
+    .secciondos {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .apartado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .ilustraciones {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+
+    .tituparra {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    
+    .naturaleza {
+        margin-left: 40px;
+    }
+
+    
+}
+
+
+/*         PARTE 5         */
+@media screen and (max-width: 1500px) {
+    li {
+        margin-right: 5.8em;
+    }
+
+    .logo {
+            margin: 1em 3em 2em;
+        }
+    
+        .lista_dos {
+            margin-right: 5em;
+        }
+}
+
+@media screen and (max-width: 970px) {
+    li {
+        margin-right: 3.8em;
+    }
+
+    .logo {
+            margin: 1em 1em 2em;
+        }
+    
+        .lista_dos {
+            margin-right: 1em;
+        }
+}
+
+
+@media screen and (max-width: 590px) {
+    .container {
+        display: block;
+    }
+    
+    .main {
+        background-color: #262626;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 0em 0.1em 0.1em;
+    }  
+
+    .lista {
+        margin-left: 3em;
+    }
+
+    .subscribe {
+        margin-left: 3em;
+        margin-top: 2em;
+    }
+
+    .lista {
+        margin-top: 1em;
+    }
+
+
+}
+
+
+
+
